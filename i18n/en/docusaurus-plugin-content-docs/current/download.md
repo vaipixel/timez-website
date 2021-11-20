@@ -2,13 +2,13 @@
 sidebar_position: 2
 ---
 
-# 下载
+# Download
 
-Timez 是全平台软件，你可以在移动端和桌面端使用，并且同步您的数据。
+Timez is a full-platform software, you can use it on mobile and desktop, and synchronize your data.
 
-## 移动端下载
+## Mobile
 
-[![Android](/img/badge/coolapk.svg)](https://www.coolapk.com/apk/com.vaipixel.timez)
+[![Android](/img/badge/google_play.svg)](https://play.google.com/store/apps/details?id=com.vaipixel.timez)
 
 [![iOS](/img/badge/app_store.svg)](https://apps.apple.com/us/app/timez/id1567024178)
 

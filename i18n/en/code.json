@@ -7,12 +7,16 @@
     "message": "View More",
     "description": "The view more button"
   },
+  "homePage.makeTimeRecordEasy": {
+    "message": "Make time record easy",
+    "description": "The view more button"
+  },
   "feature.title.easyToUse": {
     "message": "Easy to Use",
     "description": "The view more button"
   },
   "feature.description.easyToUse": {
-    "message": "Todo style and excellent UI design<br/>make it easy for Timez to record time.",
+    "message": "Todo style and excellent UI design|make it easy for Timez to record time.",
     "description": "The view more button"
   },
   "feature.title.powerfulTask": {
@@ -20,7 +24,7 @@
     "description": "The view more button"
   },
   "feature.description.powerfulTask": {
-    "message": "Powerful task management of Timez orders your day",
+    "message": "Powerful task management of Timez|orders your day",
     "description": "The view more button"
   },
   "feature.title.clearReport": {
@@ -28,7 +32,7 @@
     "description": "The view more button"
   },
   "feature.description.clearReport": {
-    "message": "Excellent report design<br/>let your time be clear at a glance",
+    "message": "Excellent report design|let your time be clear at a glance",
     "description": "The view more button"
   },
   "theme.NotFound.title": {

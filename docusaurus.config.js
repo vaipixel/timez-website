@@ -15,7 +15,20 @@ const config = {
   favicon: 'img/favicon.ico',
   organizationName: 'Vaipixel', // Usually your GitHub org/user name.
   projectName: 'timez-website', // Usually your repo name.
-
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'zh'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+      },
+      zh: {
+        label: '简体中文',
+        direction: 'ltr',
+      },
+    }
+  },
   presets: [
     [
       '@docusaurus/preset-classic',
@@ -52,13 +65,17 @@ const config = {
           {
             type: 'doc',
             docId: 'support',
-            position: 'right',
+            position: 'left',
             label: 'Support',
           },
-          {to: '/blog', label: 'Blog', position: 'right'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/vaipixel/timez-website',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            type: 'localeDropdown',
             position: 'right',
           },
         ],

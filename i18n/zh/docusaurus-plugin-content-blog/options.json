@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "博客",
+    "description": "博客"
+  },
+  "description": {
+    "message": "Timez 博客",
+    "description": "Timez 博客"
+  },
+  "sidebar.title": {
+    "message": "最近发布",
+    "description": "The label for the left sidebar"
+  }
+}

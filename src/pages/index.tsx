@@ -11,28 +11,18 @@ function HomepageHeader() {
     return (
         <header className={clsx('hero hero--primary', styles.heroBanner)}>
             <div className="container">
-                <h1 className="hero__title">{siteConfig.title}</h1>
+                <h1 className="hero__title">Timez - time easy</h1>
                 <p className="hero__subtitle">{siteConfig.tagline}</p>
                 <div className={styles.buttons}>
                     <Link
-                        className="button button--secondary button--lg"
+                        className={'button button--secondary button--lg ' + styles.button + ' ' + styles.marginRight}
                         to="/docs/support">
-                        iOS
+                        现在下载
                     </Link>
                     <Link
-                        className="button button--secondary button--lg"
-                        to="/docs/support">
-                        MacOS
-                    </Link>
-                    <Link
-                        className="button button--secondary button--lg"
-                        to="/docs/support">
-                        Android
-                    </Link>
-                    <Link
-                        className="button button--secondary button--lg"
-                        to="/docs/support">
-                        Windows
+                        className={'button button--secondary button--lg '  + styles.button}
+                        to="/blog">
+                        查看更多
                     </Link>
                 </div>
             </div>

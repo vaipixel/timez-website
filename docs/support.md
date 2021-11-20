@@ -2,11 +2,15 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 下载
 
-Let's discover **Docusaurus in less than 5 minutes**.
+Timez 是全平台软件，你可以在移动端和桌面端使用，并且同步您的数据。
 
-## Getting Started
+## 移动端下载
+
+<div>
+<a>ssa</a>
+</div>
 
 Get started by **creating a new site**.
 

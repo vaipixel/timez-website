@@ -21,3 +21,13 @@
   align-items: center;
   justify-content: center;
 }
+
+.button {
+  /*margin-right: 30px;*/
+  border-radius: 35px;
+  background-color: white;
+}
+
+.marginRight {
+  margin-right: 30px;
+}

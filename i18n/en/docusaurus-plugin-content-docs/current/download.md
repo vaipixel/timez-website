@@ -12,7 +12,7 @@ Timez is a full-platform software, you can use it on mobile and desktop, and syn
 
 [![iOS](/img/badge/app_store.svg)](https://apps.apple.com/us/app/timez/id1567024178)
 
-## 桌面端下载
+## Desktop
 
 [![Windows](/img/badge/windows.svg)](http://cdn.qiniu.blog.fxcdev.com/Timez_windows.7z)
 

@@ -1,0 +1,16 @@
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureSvg {
+  height: 225px;
+  width: 225px;
+}
+
+.description {
+  /*color: #0000004D;*/
+  font-weight: 450;
+}

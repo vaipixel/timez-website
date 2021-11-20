@@ -1,38 +1,34 @@
 {
   "homePage.downloadNow": {
-    "message": "现在下载",
+    "message": "Download Now",
     "description": "The download button"
   },
   "homePage.viewMore": {
-    "message": "查看更多",
-    "description": "The view more button"
-  },
-  "homePage.makeTimeRecordEasy": {
-    "message": "让时间记录变得轻松",
+    "message": "View More",
     "description": "The view more button"
   },
   "feature.title.easyToUse": {
-    "message": "简单易用",
+    "message": "Easy to Use",
     "description": "The view more button"
   },
   "feature.description.easyToUse": {
-    "message": "归功于 Todo 的形式和优秀的交互设计|使用 Timez 记录时间变得异常轻松",
+    "message": "Todo style and excellent UI design<br/>make it easy for Timez to record time.",
     "description": "The view more button"
   },
   "feature.title.powerfulTask": {
-    "message": "任务管理",
+    "message": "Task Management",
     "description": "The view more button"
   },
   "feature.description.powerfulTask": {
-    "message": "Timez 拥有强大的任务管理功能|让你有条不紊的规划每一天",
+    "message": "Powerful task management of Timez orders your day",
     "description": "The view more button"
   },
   "feature.title.clearReport": {
-    "message": "统计清晰",
+    "message": "Clear Report",
     "description": "The view more button"
   },
   "feature.description.clearReport": {
-    "message": "优秀的报表设计|让你的时间一目了然",
+    "message": "Excellent report design<br/>let your time be clear at a glance",
     "description": "The view more button"
   },
   "theme.NotFound.title": {
@@ -47,21 +43,13 @@
     "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
     "description": "The 2nd paragraph of the 404 page"
   },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "Scroll back to top",
     "description": "The ARIA label for the back to top button"
-  },
-  "theme.blog.archive.title": {
-    "message": "归档",
-    "description": "The page & hero title of the blog archive page"
-  },
-  "theme.blog.archive.description": {
-    "message": "归档",
-    "description": "The page & hero description of the blog archive page"
-  },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "关闭",
-    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Blog list page navigation",
@@ -74,6 +62,14 @@
   "theme.blog.paginator.olderEntries": {
     "message": "Older Entries",
     "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.archive.title": {
+    "message": "Archive",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Archive",
+    "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.post.readingTime.plurals": {
     "message": "One min read|{readingTime} min read",
@@ -176,7 +172,7 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "编辑此页",
+    "message": "Edit this page",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
@@ -195,6 +191,10 @@
     "message": "Last updated{atDate}{byUser}",
     "description": "The sentence used to display when a page has been last updated, and by who"
   },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Back to main menu",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
+  },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Versions",
     "description": "The label for the navbar versions dropdown on mobile view"
@@ -202,10 +202,6 @@
   "theme.common.skipToMainContent": {
     "message": "Skip to main content",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
-  },
-  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Back to main menu",
-    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "On this page",
@@ -232,7 +228,7 @@
     "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
-    "message": "搜索",
+    "message": "Search",
     "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
@@ -248,11 +244,11 @@
     "description": "The paragraph for fetching new search results"
   },
   "theme.SearchBar.label": {
-    "message": "搜索",
+    "message": "Search",
     "description": "The ARIA label and placeholder for search button"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "标签",
+    "message": "Tags",
     "description": "The title of the tag list page"
   }
 }

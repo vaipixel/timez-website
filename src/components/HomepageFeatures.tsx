@@ -6,6 +6,7 @@
  */
 import React from 'react';
 import clsx from 'clsx';
+import Translate, {translate} from '@docusaurus/Translate';
 import styles from './HomepageFeatures.module.css';
 
 type FeatureItem = {
@@ -14,34 +15,31 @@ type FeatureItem = {
     description: JSX.Element;
 };
 
+function description(key: string) {
+    return (
+        <>
+            {translate({message: key}).split('|').map((line) => <div
+                key={line}>{line}</div>)}
+        </>
+    );
+}
+
 const FeatureList: FeatureItem[] = [
     {
-        title: '任务管理',
+        title: translate({message: 'feature.title.powerfulTask'}),
         image: '/img/features/powerful_tasks.svg',
-        description: (
-            <>
-                Timez 拥有强大的任务管理功能<br/>让你有条不紊的规划每一天
-            </>
-        ),
+        description: description('feature.description.powerfulTask'),
     },
     {
-        title: '简单易用',
+        title: translate({message: 'feature.title.easyToUse'}),
         image: '/img/features/easy_to_use.svg',
-        description: (
-            <>
-                归功于 Todo 的形式和优秀的交互设计<br/>使用 Timez 记录时间变得异常轻松
-            </>
-        ),
+        description: description('feature.description.easyToUse'),
     },
 
     {
-        title: '统计清晰',
+        title: translate({message: 'feature.title.clearReport'}),
         image: '/img/features/clear_report.svg',
-        description: (
-            <>
-                优秀的报表设计<br/>让你的时间一目了然
-            </>
-        ),
+        description: description('feature.description.clearReport'),
     },
 ];
 

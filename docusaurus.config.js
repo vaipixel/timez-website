@@ -16,7 +16,7 @@ const config = {
   organizationName: 'Vaipixel', // Usually your GitHub org/user name.
   projectName: 'timez-website', // Usually your repo name.
   i18n: {
-    defaultLocale: 'en',
+    defaultLocale: 'zh',
     locales: ['en', 'zh'],
     localeConfigs: {
       en: {
@@ -37,13 +37,13 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
+          editUrl: 'https://github.com/vaipixel/timez-website/edit/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+            'https://github.com/facebook/docusaurus/edit/main/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -64,9 +64,9 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'support',
+            docId: 'intro',
             position: 'left',
-            label: 'Support',
+            label: 'Docs',
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
@@ -88,7 +88,7 @@ const config = {
             items: [
               {
                 label: 'Support',
-                to: '/docs/support',
+                to: '/docs/intro',
               },
             ],
           },
@@ -96,17 +96,13 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Github Discussions',
+                href: 'https://github.com/vaipixel/timez-website/discussions',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Notion',
+                href: 'https://emrys.notion.site/Timez-b0eb505a033b45d4bd9093557e54767b',
+              }
             ],
           },
           {

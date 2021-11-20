@@ -4,6 +4,7 @@ import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './index.module.css';
+import Translate, {translate} from '@docusaurus/Translate';
 import HomepageFeatures from '../components/HomepageFeatures';
 
 function HomepageHeader() {
@@ -16,13 +17,13 @@ function HomepageHeader() {
                 <div className={styles.buttons}>
                     <Link
                         className={'button button--secondary button--lg ' + styles.button + ' ' + styles.marginRight}
-                        to="/docs/support">
-                        现在下载
+                        to="/docs/download">
+                        <Translate id="homePage.downloadNow" description="homePage.downloadNow"/>
                     </Link>
                     <Link
                         className={'button button--secondary button--lg '  + styles.button}
                         to="/blog">
-                        查看更多
+                        <Translate id="homePage.viewMore" description="homePage.viewMore"/>
                     </Link>
                 </div>
             </div>
@@ -35,7 +36,7 @@ export default function Home(): JSX.Element {
     return (
         <Layout
             // title={`Hello from ${siteConfig.title}`}
-            description="让时间记录变得轻松">
+            description={translate({message: 'homePage.makeTimeRecordEasy'})}>
             <HomepageHeader/>
             <main>
                 <HomepageFeatures/>

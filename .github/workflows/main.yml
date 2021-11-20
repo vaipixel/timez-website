@@ -39,7 +39,7 @@ jobs:
       - name: Setup aliyun oss
         uses: manyuanrong/setup-ossutil@master
         with:
-          endpoint: oss-cn-zhanghai.aliyuncs.com
+          endpoint: oss-cn-shanghai.aliyuncs.com
           access-key-id: ${{ secrets.KEY }} 
           access-key-secret: ${{ secrets.SECRET }}
       - name: Depoly Website

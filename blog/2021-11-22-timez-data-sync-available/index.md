@@ -1,5 +1,4 @@
 ---
-slug: Timez 全平台数据同步上线
 title: Timez 全平台数据同步上线
 authors: [toner]
 tags: [timez]

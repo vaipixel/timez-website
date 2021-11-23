@@ -1,5 +1,5 @@
 ---
-title: Privacy Policy
+title: 隐私协议
 description: Privacy Policy
 ---
 

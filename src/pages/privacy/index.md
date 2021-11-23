@@ -3,7 +3,7 @@ title: 隐私协议
 description: Privacy Policy
 ---
 
-# Privacy Policy
+# 隐私协议
 
 *Update 2021/11/19*
 

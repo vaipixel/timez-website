@@ -1,9 +1,9 @@
 ---
-title: 隐私协议
+title: 隐私政策
 description: Privacy Policy
 ---
 
-# 隐私协议
+# 隐私政策
 
 *Update 2021/11/19*
 

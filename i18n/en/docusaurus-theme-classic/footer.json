@@ -11,6 +11,10 @@
     "message": "More",
     "description": "The title of the footer links column with title=More in the footer"
   },
+  "link.title.Law": {
+    "message": "Law",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
   "link.item.label.Docs": {
     "message": "Docs",
     "description": "The label of footer link with label=Support linking to /docs/support"
@@ -34,6 +38,18 @@
   "link.item.label.GitHub": {
     "message": "GitHub",
     "description": "The label of footer link with label=GitHub linking to https://github.com/vaipixel"
+  },
+  "link.item.label.Privacy Policy": {
+    "message": "Privacy Policy",
+    "description": "The label of footer link with label=Privacy Policy linking to /privacy"
+  },
+  "link.item.label.Terms of Use": {
+    "message": "Terms of Use",
+    "description": "The label of footer link with label=Terms of Use linking to /terms"
+  },
+  "link.item.label.Terms of Subscription": {
+    "message": "Terms of Subscription",
+    "description": "The label of footer link with label=Terms of Subscription linking to /subscription-terms"
   },
   "copyright": {
     "message": "© 2021 西安市莲湖区路漫漫漫网络工作部 ｜ <a href=\"https://beian.miit.gov.cn\">陕ICP备2021014667号</a> ｜ Built with Docusaurus",

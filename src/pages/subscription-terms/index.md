@@ -10,7 +10,7 @@ hide_table_of_contents: true
 
 欢迎您开通 Timez PRO 会员。
 
-Timez PRO 会员由 Timez（网址：https://timezapp.top）的所有者开发，旨在为 Timez 用户（以下更多的称之为「您」）提供付费的增值会员权益。
+Timez PRO 会员由 Timez（网址：[https://timezapp.top](https://timezapp.top)）的所有者开发，旨在为 Timez 用户（以下更多的称之为「您」）提供付费的增值会员权益。
 
 请您务必审慎阅读、充分理解本协议各条款内容，特别是免除或限制责任的相应条款。 未成年人应在法定监护人的陪同下阅读本协议。
 

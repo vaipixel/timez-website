@@ -10,7 +10,7 @@ export default class TuCao extends Component {
                 "avatar": params.get("avatar"),
                 "openid": params.get("openid"),
             },
-            productId = 1221;
+            productId = 366791;
         TuCaoUtil.request(productId, data);
     }
 

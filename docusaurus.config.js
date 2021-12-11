@@ -68,7 +68,16 @@ const config = {
                         position: 'left',
                         label: 'Docs',
                     },
-                    {to: '/blog', label: 'Blog', position: 'left'},
+                    {
+                        to: '/blog',
+                        label: 'Blog',
+                        position: 'left',
+                    },
+                    {
+                        to: '/about',
+                        label: 'About',
+                        position: 'right',
+                    },
                     {
                         href: 'https://github.com/vaipixel/timez-website',
                         label: 'GitHub',

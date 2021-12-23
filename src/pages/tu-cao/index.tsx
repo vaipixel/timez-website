@@ -11,6 +11,7 @@ export default class TuCao extends Component {
                 "openid": params.get("openid"),
             },
             productId = 366791;
+        alert(window.location.search)
         alert(data.openid)
         TuCaoUtil.request(productId, data);
     }

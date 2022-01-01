@@ -14,7 +14,7 @@ Timez 2.0 重新设计了交互和界面，加入了夜间模式的适配。
 
 之所以重新设计，是因为之前的界面再想要添加功能，让人感觉无从下手，似乎入口添加在哪里都有点怪怪的。
 
-<![](screenshot_0.png),![](screenshot_1.png),![](screenshot_2.png),![](screenshot_3.png),![](screenshot_4.png)>
+![](screenshot.jpeg)
 
 ## 云同步免费开放
 
